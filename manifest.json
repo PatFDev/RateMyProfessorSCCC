@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Rate My Suffolk Professor",
+  "version": "1.1",
+  "description": "Adds professor ratings to Sufolk County Community College's course search pages.",
+  "icons": {
+    "64": "images/icon64.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/sccc.js"],
+      "all_frames": true,
+      "matches": ["*://lighthouse.sunysuffolk.edu/pls/prod/*"]
+    }
+  ],
+  "background": {
+    "service_worker": "scripts/background.js"
+  },
+  "host_permissions": ["https://www.ratemyprofessors.com/graphql"]
+}
