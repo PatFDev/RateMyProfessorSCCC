@@ -16,7 +16,7 @@ RateMyProfessorSCCC is a Chrome extension designed to enhance the experience of 
 
 ### Setup
 
-1. Download the `RateMyProfessorSCCC` extension from the [Releases](https://github.com/PatFDev/RateMyProfessorSCCC/releases) page.
+1. Download the `RateMyProfessorSCCC` extension from the [Repo](https://github.com/PatFDev/RateMyProfessorSCCC/).
 2. Open the Chrome Extensions page by navigating to `chrome://extensions/`.
 3. Enable Developer Mode by ticking the checkbox in the upper-right corner.
 4. Click on the "Load unpacked extension..." button.
